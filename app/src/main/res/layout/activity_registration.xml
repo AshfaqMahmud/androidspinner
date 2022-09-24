@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5FE4F8"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/lexend_deca"
+        android:text="Register Yourself"
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/tname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Fullname"
+        android:includeFontPadding="true"
+        android:inputType="textEmailAddress"
+        android:minHeight="55dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#80000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/troll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tname"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Roll"
+        android:includeFontPadding="true"
+        android:inputType="textEmailAddress"
+        android:minHeight="55dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#80000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/troll"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Email"
+        android:includeFontPadding="true"
+        android:inputType="textEmailAddress"
+        android:minHeight="55dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#80000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dept_spinner"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Password"
+        android:includeFontPadding="true"
+        android:inputType="textEmailAddress"
+        android:minHeight="55dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#80000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/tcpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tpass"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="Confirm Password"
+        android:includeFontPadding="true"
+        android:inputType="textEmailAddress"
+        android:minHeight="55dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#80000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/rgstrb"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tcpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#AA00FF"
+        android:fontFamily="@font/lexend_deca"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/dept_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tmail"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:minHeight="48dp"/>
+
+</RelativeLayout>
